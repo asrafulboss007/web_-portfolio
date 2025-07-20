@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+   
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 
 }
@@ -7,7 +9,10 @@ h1{
     font-size: 50px;
 }
 .name-highlight{
-    color: orange;
+    color: rgb(65, 163, 78);
+}
+.bone{
+    color: rgb(28, 94, 22);
 }
 .half-width{
     width: 40%;
@@ -19,3 +24,39 @@ h1{
     width: 100%;
    
 }
+.TOP-BANNER{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+   padding-bottom: 200px;
+}
+.link-button{
+    background-color: rgb(67, 21, 153);
+   color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+   
+
+
+  }
+.second-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;}
+
+    .second-half-width img{
+        width: 100%;
+    }
+    h3{
+        color: dimgrey
+    }
+    .SECOND-TOP-BANNER{
+        background-image: url("images/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
