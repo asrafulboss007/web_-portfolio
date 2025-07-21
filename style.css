@@ -52,11 +52,51 @@ section{
     .second-half-width img{
         width: 100%;
     }
+    
     h3{
-        color: dimgrey
+        font-size: 30px;
+        color: rgb(105, 10, 10);
     }
     .SECOND-TOP-BANNER{
         background-image: url("images/dream-bg.png");
         background-repeat: no-repeat;
         background-position: right;
     }
+  
+
+    .half-width.experience{
+        box-shadow: 10px 10px 50px gray;
+        height: 600px;
+        border-radius: 10px;
+        background-color: rgba(222, 235, 151, 0.8);
+        padding: 20px;
+        text-align: center;
+        background-color: whitesmoke;
+      
+       
+    }
+
+    .experiences{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left ;
+
+    }
+
+    #student{
+      border-left: 7px solid rgb(65, 0, 119)  ;
+      border-image: linear-gradient(to bottom, rgb(179, 14, 27), rgb(6, 230, 99)) 1;
+      mask-border-slice: 1 ;
+      
+    }
+    #full-stack{
+           border-left: 7px solid rgb(65, 0, 119)  ;
+      border-image: linear-gradient(to bottom, rgb(70, 6, 112), rgb(27, 240, 255)) 1;
+      mask-border-slice: 1 ;
+    }
+    footer{
+        text-align: center;
+        color: gray;
+        font-size: 12PX;
+    }
+    
